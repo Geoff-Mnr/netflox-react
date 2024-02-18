@@ -25,7 +25,7 @@ function Movies() {
     return (
         <>
             <Navbar />
-            <div className="w-full h-auto bg-black text-white flex flex-col items-center pt-20">
+            <div className="w-full h-auto text-white flex flex-col items-center pt-20">
                 <input
                     type="text"
                     placeholder="Rechercher un film"
