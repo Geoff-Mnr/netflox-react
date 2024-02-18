@@ -1,22 +1,20 @@
-import React, { useState } from "react";
-import { NavLink, useNavigate } from "react-router-dom";
-import Logo from "../components/logo";
+import React from "react";
+import { NavLink } from "react-router-dom";
+import Logo from "../components/Logo";
 
 const Navbar = () => {
 
-
     return (
         <header className="w-full">
-            <nav className="w-full bg-zinc-800 p-4 flex items-center justify-between h-1/12">
+            <nav className="w-full bg-neutral-900  p-4 flex items-center justify-between h-1/12 z-10 fixed">
                 <div className="menu w-1/4 flex justify-between items-center">
-                    <Logo />
+                    <Logo className="w-28" />
                     <ul className="flex text-white text-base">
                         <li><NavLink to="/" className="p-3 hover:font-semibold">Accueil</NavLink></li>
                         <li><NavLink to="/movies" className="p-3 hover:font-semibold">Films</NavLink></li>
                     </ul>
                 </div>
             </nav>
-
         </header>
     );
 };

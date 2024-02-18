@@ -1,12 +1,14 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import BackgroundRandom from '../components/BackgroundRandom';
 
 
 
 const Home = () => (
-  <div>
-    <Navbar/>
-      <h1>Home</h1>
+  <div className='w-full'>
+    <Navbar />
+    <BackgroundRandom />
+
   </div>
 );
 
