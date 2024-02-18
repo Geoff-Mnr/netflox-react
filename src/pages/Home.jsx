@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import BackgroundRandom from '../components/BackgroundRandom';
 import SetNewMovies from '../components/ListNewMovies';
 import SetComedyMovies from '../components/ListComedyMovies';
+import SetAnimationMovies from '../components/ListAnimationMovies';
 
 
 
@@ -12,6 +13,8 @@ const Home = () => (
     <BackgroundRandom />
     <SetNewMovies />
     <SetComedyMovies />
+    <SetAnimationMovies />
+
   </div>
 );
 
