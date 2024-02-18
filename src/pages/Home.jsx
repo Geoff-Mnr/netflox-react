@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import BackgroundRandom from '../components/BackgroundRandom';
-import SetNewMovies from '../components/SetNewMovies';
+import SetNewMovies from '../components/ListNewMovies';
+import SetComedyMovies from '../components/ListComedyMovies';
 
 
 
@@ -10,6 +11,7 @@ const Home = () => (
     <Navbar />
     <BackgroundRandom />
     <SetNewMovies />
+    <SetComedyMovies />
   </div>
 );
 
